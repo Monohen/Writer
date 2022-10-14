@@ -1,5 +1,9 @@
+// Start
+
+// Start Title
 document.getElementById("title").value = localStorage.getItem("title");
-document.title = localStorage.getItem("title");
+
+// Start Textarea
 document.getElementById("textarea").value = localStorage.getItem("textarea");
 
 // Save Function
@@ -15,6 +19,12 @@ function save() {
   let textareacont = document.getElementById("textarea").value;
   localStorage.setItem("textarea", textareacont);
   console.log(textareacont);
+
+  // Load Notification
+  const NOTIFICATION_TITLE = localStorage.getItem("title");
+  const NOTIFICATION_BODY = localStorage.getItem("textarea");
+
+  new Notification(NOTIFICATION_TITLE, { body: NOTIFICATION_BODY });
 }
 
 // Load Function

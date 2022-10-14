@@ -1,8 +1,8 @@
 {
-  "name": "writerdesktopelectron",
-  "productName": "writerdesktopelectron",
+  "name": "writer",
+  "productName": "Writer",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Oversimplified writer application",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -24,7 +24,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "writerdesktopelectron"
+            "name": "writer"
           }
         },
         {

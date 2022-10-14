@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/monohen/writer?style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/monohen/writer/total?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/monohen/writer/Release/total?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/monohen/writer?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/monohen/writer?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/monohen/writer?style=for-the-badge)

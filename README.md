@@ -35,9 +35,16 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#usage">Usage</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
+    <li>
+      <a href="#building">Building</a>
+      <ul>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#build">Build</a></li>
+      </ul>
+    </li>
     </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -50,16 +57,15 @@
 </div>
 
 ## Getting Started
+
+### Usage
+
 <p>
-Steps:
+  Steps:
   <br />
-  Open a `.dmg` downloaded from releases
+  Make a title
   <br />
-  Move Writer to `Applications`
-  <br />
-  Run Writer from the `Applications` folder or launchpad
-  <br />
-  Make a title and whatever you want
+  Make a paragraph
   <br />
   Press save
   <br />
@@ -68,17 +74,36 @@ Steps:
   Continue writing
 </p>
 
+### Installation
+
+<p>
+Download the `.dmg` from releases
+<br />
+Open the `.dmg`
+<br />
+Drag Writer to the `Applications` folder
+<br />
+Run Writer from the `Applications` folder or Launchpad
+<br />
+</p>
+
+## Building
+
 ### Requirements
 
 NodeJS `<= 16.80.0`
 Yarn - Enable via the `sudo corepack enable` command
 
-### Installation
+### Build
 
-1. Clone `git clone https://github.com/monohen/writer.git`
-3. Install packages `yarn`
-4. Build `yarn make`
-
+<p>
+Clone `git clone https://github.com/monohen/writer.git`
+<br />
+Install packages `yarn`
+<br />
+Build `yarn make`
+<br />
+</p>
 
 <!-- LICENSE -->
 ## License

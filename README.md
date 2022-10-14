@@ -52,6 +52,7 @@
 </details>
 
 ## About The Project
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/Monohen/Writer/main/images/AppImage.png" alt="Logo" width="1214px">
 </div>
@@ -106,11 +107,13 @@ Build `yarn make`
 </p>
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
+
 ## Contact
 
 Jeriah - [@Jeriah_Neal](https://twitter.com/jeriah_neal) - natalect.org@gmail.com

@@ -1,38 +1,26 @@
-// Start
+let title = document.getElementById("title").value;
+let titleID = title.concat("title");
+let paragraph = document.getElementById("paragraph").value;
+let paragraphID = title.concat("paragraph");
 
-// Start Title
-document.getElementById("title").value = localStorage.getItem("title");
-
-// Start Textarea
-document.getElementById("textarea").value = localStorage.getItem("textarea");
-
-// Save Function
 function save() {
-  // Save Title
-  let titleCont = document.getElementById("title").value;
-  localStorage.setItem("title", titleCont);
-  console.log(titleCont);
+  let title = document.getElementById("title").value;
+  let titleID = title.concat("title");
+  let paragraph = document.getElementById("paragraph").value;
+  let paragraphID = title.concat("paragraph");
+  localStorage.setItem(titleID, title);
+  console.log(localStorage.getItem(titleID));
 
-  document.title = localStorage.getItem("title");
-
-  // Save Text
-  let textareacont = document.getElementById("textarea").value;
-  localStorage.setItem("textarea", textareacont);
-  console.log(textareacont);
-
-  // Load Notification
-  const NOTIFICATION_TITLE = localStorage.getItem("title");
-  const NOTIFICATION_BODY = localStorage.getItem("textarea");
-
-  new Notification(NOTIFICATION_TITLE, { body: NOTIFICATION_BODY });
+  localStorage.setItem(paragraphID, paragraph);
+  console.log(localStorage.getItem(paragraphID));
 }
 
-// Load Function
 function load() {
-  // Load Title
-  document.getElementById("title").value = localStorage.getItem("title");
-  document.title = localStorage.getItem("title");
-
-  // Load Text
-  document.getElementById("textarea").value = localStorage.getItem("textarea");
+  let title = document.getElementById("title").value;
+  let titleID = title.concat("title");
+  let paragraph = document.getElementById("paragraph").value;
+  let paragraphID = title.concat("paragraph");
+  document.getElementById("title").value = localStorage.getItem(titleID);
+  document.getElementById("paragraph").value =
+    localStorage.getItem(paragraphID);
 }
